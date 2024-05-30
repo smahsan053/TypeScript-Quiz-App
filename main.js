@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 const quizObj = [
     {
@@ -82,7 +83,8 @@ const initApp = async () => {
 };
 initApp();
 // Generate a large quizObj programmatically
-const generateQuizObj = (numberOfQuestions) => {
+/*
+const generateQuizObj = (numberOfQuestions:number) => {
     const quizObj = [];
     for (let i = 1; i <= numberOfQuestions; i++) {
         const question = `Question ${i}: What is the answer to this question?`;
@@ -91,7 +93,9 @@ const generateQuizObj = (numberOfQuestions) => {
         quizObj.push({ Question: [question], Options: options, answer });
     }
     return quizObj;
-};
+}
+
 // Example: Generate a quizObj with 100 questions
 const quizObject = generateQuizObj(100);
 console.log(quizObject);
+*/ 
