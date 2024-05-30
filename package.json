@@ -1,5 +1,5 @@
 {
-  "name": "quiz-cli",
+  "name": "my_quiz-cli",
   "version": "1.0.0",
   "description": "This is a simple command-line quiz application built using TypeScript and Inquirer.js. The application presents random questions to the user, evaluates the answers, and keeps track of the score.  ",
   "main": "main.js",
